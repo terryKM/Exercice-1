@@ -1,12 +1,8 @@
 
 <?php
 
-
-$coordonne = array();
-
-
-// Déclaration d'un tableau associatif
 $coordonne = array(
+
 
     'nom' => 'Bacon',
     'prenom' => 'Terry',
@@ -19,14 +15,20 @@ $coordonne = array(
     'Date de naissance'=>'1993-12-10',
 
 );
+
+
 foreach ($coordonne as $key => $value) {
     echo ("<ul> 
-             <li>".$key . ' ' . $value . "<br/ >\n"."</li>
+             <li>".$key . ': ' . $value . "<br/ >\n"."</li>
             </ul>");
 
 };
 
 
+/*$date = new DateTime($array[8]);
+
+
+$array[8] = $date->format('Y-m-d');*/
 
 
 
